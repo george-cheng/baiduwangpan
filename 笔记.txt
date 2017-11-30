@@ -1,0 +1,42 @@
+CREATE TABLE 表名
+	(
+	ID int(255) NOT NULL AUTO_INCREMENT,
+	LastName varchar(255) NOT NULL,
+	hashName varchar(255) NOT NULL,
+	lastTime varchar(255) NOT NULL,
+	type varchar(255),
+	size varchar(255) NOT NULL,
+	download varchar(255) NOT NULL,
+	PRIMARY KEY (ID)
+)
+
+百度-网盘
+- 数据库 - 几个表
+		- 3+个表
+		- 1 用户名 密码 o
+		- 2 每注册一个人 就生成一个表 ->leo <-自己的东西都是自己的表里的 o
+		- 3 放咱们所有内容的表 x
+
+
+'ID','lastName','hashName','size','type','download','lastTime'
+
+ 1    1111.jpg   hasddahsdadha.jpg  230kb  .jpg  0   2017/9/19 10:22:33
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
